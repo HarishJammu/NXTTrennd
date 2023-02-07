@@ -1,0 +1,35 @@
+.home-container{
+    display:flex;
+    justify-content: flex-start;
+    
+}
+.home-content{
+    display: flex;
+    flex-direction: column;;
+    justify-content: flex-start;
+    padding-left: 10px;
+    margin-left: 10px;
+
+}
+.home-heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgba(17, 0, 255, 0.952);
+    font-size:30px;
+    font-weight: bold;
+    text-decoration:underline;
+}
+.home-description{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    
+    color:rgb(172, 158, 158);
+}
+.shop-now-button{
+    background-color: rgb(3, 3, 247);
+    height: 30px;
+    width:100px;
+    border-radius: 8px;
+    font-size: 12px;
+    border-color: rgb(3, 3, 247);
+    color:rgb(255, 255, 255);
+}

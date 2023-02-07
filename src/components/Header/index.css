@@ -1,0 +1,37 @@
+.header-cantainer{
+    height:auto;
+    border:1px solid white;
+}
+.image-icon{
+    height:100px;
+    width:120px;
+}
+.nav-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.unorder-list{
+    display:flex;
+    flex-direction:row;
+    
+    align-items:center;
+}
+.list-item{
+    list-style-type:none;
+    font-family:'roboto';
+    font-size:20px;
+    color:#0d204f;
+    padding-right:30px;
+    text-decoration: none;
+}
+.button{
+    height:25px;
+    width:auto;
+    padding-left:6px;
+    padding-right:6px;
+    background-color:#0f18bd;
+    color:white;
+    border-radius:8px;
+    margin-right:15px;
+}
