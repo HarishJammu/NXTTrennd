@@ -51,7 +51,6 @@ class LoginForm extends Component {
               }
               return(
                 <div className='loginBackground'>
-
                   <img src="https://img.freepik.com/free-vector/mobile-login-concept-illustration_114360-83.jpg?w=740&t=st=1669534150~exp=1669534750~hmac=05e589e288ee315015c17bba61f76b1d45ea01ccfb358fd130c68ec6657591c7" 
                   alt="avatar" className="avatar"/>
                   <form className='form-background' onSubmit={this.onSubmitForm}>
@@ -64,7 +63,7 @@ class LoginForm extends Component {
                     </label>
                     <input type="password" id="password" alt="password" className="input-login" value={password} onChange={this.onChangePassword}/>
                     <div className="button-container">
-                      <button className="button" type="submit">Login</button>
+                      <button className="button" type="submit">Log In</button>
                       <p>{showError&&<p>*{errorMsg}</p>}</p>
                     </div>
                   </form>
@@ -73,4 +72,5 @@ class LoginForm extends Component {
               )
             }
 }
+
 export default LoginForm

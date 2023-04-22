@@ -1,12 +1,8 @@
 import Header from '../Header'
-import { Redirect } from 'react-router-dom'
+import {Link } from 'react-router-dom'
 import './index.css'
 
 const Home = () => {
-  
-const onClickeShop=()=>{
-    <Redirect to="/product"/>
-}
 return(
   <>
     <Header />
@@ -21,8 +17,8 @@ return(
           that way you are. So, celebrate the seasons new and exciting fashion
           in your own way.
         </p>
-        <button type="button" onClick={onClickeShop} className="shop-now-button"  >
-          Shop Now
+        <button type="button"  className="shop-now-button"  >
+          <Link to="/product" className="shop-now-button">Shop Now</Link>
         </button>
       </div>
       <img

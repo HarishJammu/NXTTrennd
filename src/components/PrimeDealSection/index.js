@@ -19,6 +19,8 @@ class PrimeDealSection extends Component{
 
     getPrimeDealsProducts=async()=>{
         this.setState({apiStaus:apiConstants.inProcess})
+
+        
         const jwtToken=Cookies.get('nxt_jwt')
         const apiUrl='https://apis.ccbp.in/prime-deals'
         const options={

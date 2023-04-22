@@ -9,7 +9,9 @@ const ProductsHeaders=props=>{
 
     return(<div className="products-header-background">
         <h1 className='Product-Head'>All Products</h1>
-      <div className='selection-price'>
+
+        
+      <div className='selection-price'> 
         <h1 className="price">Sort_by</h1>
         <select value={activeOptionId} onChange={onChangeSortby}>
             {sortByOption.map(eachOptions=>(
